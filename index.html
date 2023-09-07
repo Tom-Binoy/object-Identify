@@ -14,17 +14,24 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body onload="setIndex()">
   <center>
     <h1 class="heading">Object Detection</h1>
-      <label id="status" class="status"></label>
-      <a class="btn btn-primary a" href="">Camera</a>    <a class="btn btn-primary a" href="">Eiffel Tower</a><br><br> 
-      <a class="btn btn-primary a" href="">Cheetah</a>    <a class="btn btn-primary a" href="">Tiger</a><br><br>
-      <a class="btn btn-primary a" href="">Sun</a>    <a class="btn btn-primary a" href="">Dog</a>
+      <label id="status" class="status">Revert To Any Of The Following Page And Start Analysing</label><hr>
+
+      <a class="btn btn-primary a" href="cam.html" onclick="anchor(1)">Camera</a>
+      <a class="btn btn-primary a" href="tower.html" onclick="anchor(2)">Eiffel Tower</a><br><br> 
+
+      <a class="btn btn-primary a" href="cheata.html" onclick="anchor(3)">Cheetah</a>
+      <a class="btn btn-primary a" href="tiger.html" onclick="anchor(4)">Tiger</a><br><br>
+
+      <a class="btn btn-primary a" href="sun.html" onclick="anchor(5)">Sun</a>
+      <a class="btn btn-primary a" href="dog.html" onclick="anchor(6)">Dog</a>
+
       <h4 class="footer">Created by Tom & George</h4>
     </center>
 
-  <script src="main.js"></script>
+  <script src="main1.js"></script>
 
 </body>
 </html>

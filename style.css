@@ -2,14 +2,22 @@ body
 {
     background-image: url("bg.png");
 }
-canvas
-{
-    background-color: rgb(212, 156, 53);
-}
 .heading
 {
     border: 5 solid black;
-    color: rgb(255, 255, 255);
+    color: rgb(30, 255, 45);
+    background-color: rgb(74, 147, 255);
+    box-shadow: 0px 0px 10px 10px rgb(28, 28, 169);
+    font-family: cursive;
+    width: 500px;
+    border: 15px double rgb(6, 6, 96);
+    border-right: 15px dashed rgb(115, 184, 12);
+    border-top-left-radius: 300%;
+    border-bottom-left-radius: 300%;
+    border-left: 15px ridge;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+
 }
 .footer
 {
@@ -21,10 +29,67 @@ canvas
     width: 100%;
     color: rgb(255, 255, 255);
 }
-.a
+.back
 {
-    border: 5 solid black;
+    border: 5 solid rgb(254, 7, 197);
     border-radius: 10;
-    margin-right: 100px;
-    margin-left: 100px;
+    color: rgb(0, 47, 255);
+    font-family: fantasy;
+    border-top-left-radius: 350%;
+    border-bottom-left-radius: 10%;
+    border-left: 105px groove rgb(254, 7, 197);
+    border-right: 105px  groove rgb(254, 7, 197);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 350%;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    top: 10px;
+    left: 10px;
+    position: fixed;
+}
+
+.start
+{
+    border: 5 solid rgb(193, 15, 36);
+    color: rgb(222, 249, 14);
+    background-color: rgb(241, 16, 147);
+    box-shadow: 0px 0px 10px 10px rgb(28, 28, 169);
+    font-family: cursive;
+    border-right: 15px dashed rgb(115, 184, 12);
+    border-top-left-radius: 300%;
+    border-bottom-left-radius: 300%;
+    border-left: 15px ridge;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    bottom: 100px;
+    left: 3px;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    position: fixed;
+}
+canvas
+{
+    float: right;
+    width: 700px;
+    height: 500px;
+    top: 150px;
+    right: 5px;
+    border: 12px solid blue;
+    border-color: yellow;
+    border-left: 5px;
+    border-style: groove;
+    border-top-left-radius: 50px;
+    background-color: black;
+
+    border-bottom-left-radius: 100px;
+    position: fixed;
+}
+.status{
+    background-color: aliceblue;
+    color: black;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;
 }
